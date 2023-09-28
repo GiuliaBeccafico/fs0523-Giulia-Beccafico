@@ -1,0 +1,95 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 15px;
+    box-sizing: border-box;
+    background-image: url(../assets/img/sfondo.png);
+    background-size: cover;
+    font-size: 1em;
+}
+
+h1, h2, h3 {
+    text-align: left;
+    font-family:'Poppins', sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, rgba(0, 160, 198, 1), rgba(3, 109, 134, 1));
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 4px 8px 2x black;
+}
+
+header img{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 5em;
+}
+
+header p{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+/* NAV */
+.menu {
+    text-transform: uppercase;
+    color: white;
+}
+
+/* DIV */
+.box2{
+    padding: 25px 0;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.articolo{
+    text-shadow: grey;
+    margin-left: 20px;
+    margin-bottom: 20px; ;
+}
+
+.span2{
+    color: red;
+}
+
+ul{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    list-style-type: disc; /* Utilizza puntini come marker */
+    list-style-position: outside; /* Posiziona i marker all'esterno della lista */ 
+}
+/* ASIDE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+.box3{
+    text-align: center;
+    padding: 25px 0;
+    margin-bottom: 20px;
+    background: linear-gradient(to bottom, rgba(0, 160, 198, 1), rgba(3, 109, 134, 1));
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
