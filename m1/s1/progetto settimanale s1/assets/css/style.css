@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body{
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    inline-size: 1.65;
+}
+
+h1, h3{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    inline-size: 1.5;
+    font-size: 1.5rem;
+}
+
+h2{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    inline-size: 1.5;
+    font-size: 1.5rem;
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+
+#logo img {
+    width: 80px;
+    padding: 50px;
+}
+
+main section{
+    border: #dee1e3;
+    text-align: center;
+}
+
+#title{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#h1, #subtitle{
+    padding: 20px 20px 10px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+}
+
+#button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 1em;
+    width: 130px;
+    height: 50px;
+}
+
+#button a{
+    text-decoration: none;
+    color: white;
+}
+
+.bonds{
+    padding: 60px 20px 2px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+}
+
+.pbonds{
+    padding: 20px 20px 0.5px 20px;
+    line-height: 2em;
+    letter-spacing: 0.09em;
+}
+
+#notebook img{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+div section{
+    background-color: #e22d0e;
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+
+#h2{
+    padding: 20px 20px 10px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+}
+
+#redsection{
+    margin-top: 50px;
+}
+
+#testimonianza{
+    padding: 20px 20px 10px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+    font-style: italic;
+    color: white;
+}
+
+#name{
+    padding: 20px 20px 10px 20px;
+    letter-spacing: 0.01em;
+    color: white;
+}
+
+.box {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-width: 0.1px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.box img {
+    width: 100%; 
+    height: auto;
+}
+
+.box a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#25a2c3;
+    padding: 20px 20px 5px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+}
+
+.box p {
+    margin-top: 10px;
+    padding: 5px 20px 10px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+    font-size:medium;
+}
+
+
+
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+
+footer h2{
+    color: white;
+}
+
+footer p{
+    color: #c8e7f0;
+}
+
+#footer{
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+
+#contatti{
+    padding: 20px 20px 10px 20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+}
+
+.contacts{
+    padding: 20px 20px20px;
+    line-height: 2em;
+    letter-spacing: 0.01em;
+}
+
+.contacts a{
+    color: white;
+}
+
+#copy{
+    padding: 20px 20px 10px 20px;
+    line-height: 2em;
+    font-size: small;
+}
