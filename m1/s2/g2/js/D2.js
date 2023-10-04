@@ -41,8 +41,7 @@ verificaNumero(numberoVerificare);  /* Output: not equal */
 
 function divisibilitàPerCinque(numero) {
   if (numero % 5 === 0) {
-      let messaggio = "divisibile per 5";
-      console.log(messaggio);
+      console.log('divisibile per cinque');
   }
 }
 let numeroDivisibile = 10;
