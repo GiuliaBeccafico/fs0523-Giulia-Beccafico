@@ -84,9 +84,9 @@
   */
 
     const changeTitle = function (newTitle) {
-      const h1Element = document.querySelector('h1').innerText = 'Lei era la sua paperella, la sua Cicciabella'
+      const h1Element = document.querySelector('h1').innerText = 'Titolo cambiato'
     }
-    changeTitle('Lei era la sua paperella, la sua Cicciabella');
+    changeTitle('Titolo cambiato');
 
     /* ESERCIZIO 2
      Scrivi una funzione per aggiungere al titolo della pagina una classe "myHeading"
@@ -105,11 +105,11 @@
       divElements.forEach(divElement => {
         const p = divElement.querySelectorAll('p');
         p.forEach(p => {
-          p.textContent = 'mi domando cosa avrebbe fatto il presidente Ford';
+          p.textContent = 'nuovo paragrafo';
         });
       });
     };
-    changePcontent('mi domando cosa avrebbe fatto il presidente Ford')
+    changePcontent('nuovo paragrafo')
 
     /* ESERCIZIO 4
      Scrivi una funzione che cambi la proprietà href di ogni link 
@@ -144,7 +144,7 @@
     const addParagraph = function () {
       let firstDiv = document.querySelector('div:first-child');
       const newP = document.createElement('p');
-      newP.textContent = 'E i nostri amici andiani... Ehy come va, ehy come va!';
+      newP.textContent = 'Testo aggiunto!';
       firstDiv.appendChild(newP);
     }
     addParagraph();
