@@ -155,11 +155,7 @@
   */
     const hideFirstUl = function () {
       const firstUl = document.getElementById('firstList');
-      if (firstUl) {
-        firstUl.style.display = 'none';
-      } else {
-        return;
-      }
+      firstUl.hidden = true;
     };
     hideFirstUl();
 
