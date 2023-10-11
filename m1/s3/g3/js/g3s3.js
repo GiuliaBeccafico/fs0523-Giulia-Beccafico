@@ -1,29 +1,40 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const taskInput = document.getElementById("taskInput");
-    const addTaskBtn = document.getElementById("addTaskBtn");
-    const taskList = document.getElementById("taskList");
+let bottone = document.getElementById('bottone');
+let lista = document.getElementById('lista');
 
-    addTaskBtn.addEventListener("click", function () {
-        const taskText = taskInput.value.trim();
-        if (taskText !== "") {
-            const taskItem = document.createElement("li");
-            taskItem.textContent = taskText;
+bottone.addEventListener('click', function () {
 
-            taskItem.addEventListener("click", function(){
-                taskItem.style.textDecoration = "line-through";
-            });
+    let inputTesto = document.getElementById('testo');
 
-            const deleteBtn = document.createElement("button");
-            deleteBtn.textContent = "Elimina";
+    if (!inputTesto.value) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Non dimenticare di scrivere la tua task!',
+        });
+        return;
+    }
 
-            deleteBtn.addEventListener("click", function(){
-                taskItem.remove();
-                deleteBtn.remove();
-            });
+    let li = document.createElement('li');
+    li.innerText = inputTesto.value;
+    li.className = 'taskItem'
+    let elimina = document.createElement('button');
+    elimina.innerText = 'Elimina';
+    elimina.addEventListener('click', function () {
+        li.remove();
+    });
 
-            taskList.appendChild(taskItem);
-            taskList.appendChild(deleteBtn);
-            taskInput.value = "";
+    let barrato = false;
+
+    li.addEventListener('click', function () {
+        barrato = !barrato;
+        if (barrato) {
+            li.style.textDecoration = 'line-through';
+        } else {
+            li.style.textDecoration = 'none';
         }
     });
+
+    li.appendChild(elimina);
+    lista.prepend(li);
+    inputTesto.value = '';
 });

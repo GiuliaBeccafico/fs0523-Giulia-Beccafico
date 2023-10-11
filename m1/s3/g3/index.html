@@ -4,12 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To do list</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
     <header>
         <h1>Task List</h1>
         <h2>Inserisci qui la tua lista di cose da fare</h2>
@@ -17,13 +21,20 @@
 
     <main>
         <div class="container">
-            <div id="taskForm" class="taskForm">
-                <input type="text" id="taskInput" placeholder="Inserisci il tuo nuovo task">
-                <button id="addTaskBtn">Aggiungi</button>
-            </div>
-            <ul id="taskList" class="taskList"></ul>
+            <input type="text" id="testo" placeholder="Inserisci il tuo nuovo task">
+            <button id="bottone">Aggiungi</button>
+            <ul id="lista"></ul>
         </div>
     </main>
+
+
+    <footer>
+        <i class="fas fa-list"></i> Sito prodotto da <a href="https://github.com/GiuliaBeccafico">G. Beccafico</a>
+        &copy;
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/g3s3.js"></script>
 
 </body>
