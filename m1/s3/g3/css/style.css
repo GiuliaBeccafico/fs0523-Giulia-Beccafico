@@ -1,0 +1,63 @@
+@import url(https://64.media.tumblr.com/5913f38090826131674615d2549c4b68/tumblr_pn87xr9yrM1tx8nwe_1280.jpg);
+@import url(https://i.pinimg.com/736x/ce/5d/53/ce5d53ee06d1828b39e8cca0b994f931.jpg);
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-image: url(https://64.media.tumblr.com/5913f38090826131674615d2549c4b68/tumblr_pn87xr9yrM1tx8nwe_1280.jpg);
+    background-position: center;
+    text-align: center;
+    padding: 40px;
+}
+
+h1, h2{
+    font-size: larger;
+    font-weight: bold;
+    padding: 10px;
+    border: 5px solid #e6e6e6;
+    text-shadow: 5px 5px 5px white;
+}
+
+main {
+    background-image: url(https://i.pinimg.com/736x/ce/5d/53/ce5d53ee06d1828b39e8cca0b994f931.jpg);
+}
+.container {
+    text-align: center;
+}
+
+#taskForm {
+    margin-bottom: 20px;
+}
+
+.taskList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:  #f2e6d9;
+    border: 5px solid  #f9f2ec;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#taskItem.completed {
+    text-decoration: line-through;
+}
+
+#deleteBtn {
+    background-color:  #d9b38c;
+    color:  #f2e6d9;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
