@@ -1,0 +1,71 @@
+@import url(https://wallpapers.com/images/hd/bingo-cards-and-red-pins-dtjrmffwxod7bkuc.jpg);
+body {
+    background-image: url(https://wallpapers.com/images/hd/bingo-cards-and-red-pins-dtjrmffwxod7bkuc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(45, 6, 6);
+    text-shadow: 10px 10px 10px white;
+    text-align: center;
+    padding: 35px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+#tabella {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 10px;
+    width: 100vh;
+    height: 100%;
+    max-width: 900px;
+}
+
+.cella {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cella.estratto {
+    background-color: #ffcc00;
+}
+
+#bottone {
+    background-color: bisque;
+    color: rgba(48, 4, 4, 0.623);
+    font-size: medium;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: rgba(255, 0, 0, 0.623);
+}
+
+footer {
+    margin-top: 30px;
+    color: #000;
+    text-align: center;
+    background-color: rgba(181, 33, 33, 0.582);
+    padding: 10px;
+    width: 100%;
+}
+
+footer a {
+   color: #000;
+}
